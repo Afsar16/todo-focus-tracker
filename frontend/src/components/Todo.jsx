@@ -12,7 +12,7 @@ export default function Todo() {
   const [editTitle, setEditTitle] = useState("");
   const [editDescription, setEditDesciption] = useState("");
 
-  const apiUrl = "http://localhost:5000";
+  const apiUrl = "https://todo-focus-tracker.onrender.com";
 
   const handleSubmit = () => {
     setError("");
